@@ -51,7 +51,7 @@ def text1(url):
     aw= []
     try:
         r = requests.get(url)
-        soup = BeautifulSoup(r.text, 'xml')
+        soup = BeautifulSoup(r.text, 'lxml')
         table = soup.find('table')
         aa= re.findall(r'(?sm)(?<=CTRI Number)[^A-Za-z]*(\w+\W+.*)(?=Last Modified On:)', table.text)
         aa= lk.sub(' ', str(aa))
