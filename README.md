@@ -4,4 +4,5 @@ Bulk string match using fuzz with parallel processing. Also, web scraping of oth
 
 links:
 https://youtu.be/IEEhzQoKtQU
+http://pljung.de/posts/easy-concurrency-in-python/?utm_source=Iterable&utm_medium=email&utm_campaign=the-overflow-newsletter&utm_content=10-29-19
 
